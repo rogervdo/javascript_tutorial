@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Iboughtapropertyinegypt.com</title>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed. Head.";
+      }
+    </script>
+  </head>
+  <body>
+    <h2>JavaScript in Body</h2>
+
+    <p id="demo"></p>
+
+    <!-- Codigos javascript se ponen entre bloques script -->
+    <script>
+      document.getElementById("demo").innerHTML = "My First JavaScript";
+    </script>
+
+    <script>
+      function myFunction2() {
+        document.getElementById("demo").innerHTML =
+          "Paragraph changed again! Body.";
+      }
+    </script>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="myFunction()">Try it2</button>
+  </body>
+</html>

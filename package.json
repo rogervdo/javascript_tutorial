@@ -1,0 +1,25 @@
+{
+  "name": "javascript_tutorial",
+  "version": "1.0.0",
+  "description": "too much javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogervdo/javascript_tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogervdo/javascript_tutorial/issues"
+  },
+  "homepage": "https://github.com/rogervdo/javascript_tutorial#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.4.2"
+  }
+}
